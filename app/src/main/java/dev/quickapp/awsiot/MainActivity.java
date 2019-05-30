@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
 
     // Customer specific IoT endpoint
     // AWS Iot CLI describe-endpoint call returns: XXXXXXXXXX.iot.<region>.amazonaws.com,
-    private static final String CUSTOMER_SPECIFIC_ENDPOINT = "a24pja95qpnr0w-ats.iot.us-east-2.amazonaws.com";
+    private static final String CUSTOMER_SPECIFIC_ENDPOINT = "XXXXXXXXXX.iot.us-east-2.amazonaws.com";
 
     // Cognito pool ID. For this app, pool needs to be unauthenticated pool with
     // AWS IoT permissions.
-    private static final String COGNITO_POOL_ID = "us-east-2:74597f55-6bf0-4ab0-9f11-a29903da4904";
+    private static final String COGNITO_POOL_ID = "us-east-2:xxxxx-xxxxx-xxxxxxxxxx--xxxxxx";
 
     // Region of AWS IoT
     private static final Regions MY_REGION = Regions.US_EAST_2;
